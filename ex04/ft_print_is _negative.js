@@ -1,4 +1,4 @@
-const Positif = (nbr) => {
+const Negatif = (nbr) => {
     if (isNaN(nbr)) {
         let afficher = "STOP"
         return afficher
@@ -24,4 +24,4 @@ const Positif = (nbr) => {
     }
 }
 
-console.log(Positif(-1))
+console.log(Negatif(-1))
