@@ -1,5 +1,5 @@
-function printAlphabet(){ 
+function printReverseAlphabet(){ 
     console.log("zyxwvutsrqponmlkjihgfedcba");
 }
 
-printAlphabet();
+printReverseAlphabet();
