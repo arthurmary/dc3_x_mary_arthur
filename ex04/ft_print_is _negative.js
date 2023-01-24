@@ -1,4 +1,4 @@
-const Negatif = (nbr) => {
+let Negatif = (nbr) => {
     if (isNaN(nbr)) {
         let afficher = "STOP"
         return afficher
