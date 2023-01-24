@@ -5,20 +5,21 @@ const Negatif = (nbr) => {
     } else {
         let afficher
         switch (Math.sign(nbr)) {
-            case 1:
+            case -0:
+                afficher = "P"
+                break;
+            case 0:
                 afficher = "P"
                 break;
             case -1:
                 afficher = "N"
                 break;
-            case 0:
-                afficher = "P"
-                break;
-            case -0:
+            case 1:
                 afficher = "P"
                 break;
             default:
                 afficher = "N"
+                
         }
         return afficher
     }
